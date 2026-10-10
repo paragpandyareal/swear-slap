@@ -1,0 +1,18 @@
+{
+  "name": "swear-slap",
+  "displayName": "Swear Slap",
+  "version": "1.0.0",
+  "description": "Swear at Claude and a cartoon hand slaps your screen. The message is never sent, so it costs nothing, and a polite version goes back in your prompt box. Nothing to install.",
+  "author": {
+    "name": "Parag Pandya",
+    "url": "https://github.com/paragpandyareal"
+  },
+  "homepage": "https://github.com/paragpandyareal/swear-slap",
+  "repository": "https://github.com/paragpandyareal/swear-slap",
+  "license": "MIT",
+  "keywords": ["fun", "swearing", "swear-jar", "animation", "prompt", "mod"],
+  "privacyPolicyUrl": "https://github.com/paragpandyareal/swear-slap/blob/main/PRIVACY.md",
+  "documentationUrl": "https://github.com/paragpandyareal/swear-slap#readme",
+  "supportUrl": "https://github.com/paragpandyareal/swear-slap/issues",
+  "termsOfServiceUrl": "https://github.com/paragpandyareal/swear-slap/blob/main/LICENSE"
+}
