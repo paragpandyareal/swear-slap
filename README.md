@@ -26,13 +26,22 @@ It's a bit of fun, and a gentle nudge to keep your prompts clean.
 
 You need Claude Code **2.1.287 or newer** (check with `claude --version`, update with `claude update`). Built and tested on 2.1.296.
 
-In Claude Code, run:
+Start Claude Code (type `claude` in your terminal), then at its prompt run:
 
 ```
 /plugin install swear-slap --marketplace paragpandyareal/swear-slap
 ```
 
 Then run `/reload-plugins` (or restart Claude Code). That's it: no Python, no packages, no settings to change.
+
+Commands starting with `/` only work inside Claude Code, not in PowerShell, Terminal or bash. To install straight from your terminal instead, run:
+
+```
+claude plugin marketplace add paragpandyareal/swear-slap
+claude plugin install swear-slap@swear-slap
+```
+
+Then start `claude` as usual.
 
 Check it's on with `/slap`. It answers with the jar total and the commands.
 
@@ -83,7 +92,7 @@ The roast lines are in `ROASTS` at the top of `hooks/register.ts`, and the price
 - **The animation is terminal only.** In the Claude desktop app you still get blocked and roasted, as text.
 - **Pixel art in a terminal is made of block characters**, so it's chunky by nature. Colours are chosen to show exactly in 256-colour terminals too.
 - **The impact is a bright flash** (about a tenth of a second, white then red). If flashes bother you, use `/slap off`.
-- **Windows sound** uses PowerShell, which can take a moment to start; the mod starts it early so the sound lands on the slap. It's the least-tested path so far. If it stays quiet, run `/slap sound test` and open an issue with what it says.
+- **Windows sound** uses PowerShell, which can take a moment to start; the mod starts it early so the sound lands on the slap. If it stays quiet, run `/slap sound test` and open an issue with what it says.
 - It checks English swear words only (see `hooks/words.ts`).
 
 ## Troubleshooting
