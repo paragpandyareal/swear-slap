@@ -4,7 +4,11 @@
 
 ![Swear Slap: when you swear at Claude Code, a pixel-art hand slaps the screen and a polite version of your message goes back in the prompt box](docs/images/cover.png)
 
-<!-- VIDEO: drop the demo video here (edit this README on GitHub and drag the .mp4 in; it plays inline) -->
+
+
+https://github.com/user-attachments/assets/4dcbbd78-c00d-4c83-b42f-4f90b8ea6694
+
+
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Claude Code mod](https://img.shields.io/badge/Claude%20Code-mod-d97757)
